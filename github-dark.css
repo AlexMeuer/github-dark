@@ -1367,6 +1367,12 @@ table.capped-list tr:nth-child(even) {
     color: #9e9e9e;
 }
 
+/* Repo Graph | Netowrk Tree */
+/* Invert the colours of the network tree images. Who don't have a whole lot of control over these because they're PNGs provided by github. */
+.network-tree {
+   -webkit-filter: invert(0.8);
+   filter: invert(0.8);
+}
 
 /* Repo Settings Tab */
 
